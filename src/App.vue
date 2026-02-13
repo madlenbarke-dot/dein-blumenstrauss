@@ -504,7 +504,7 @@ const containerStyle = computed(() => ({
   border: none;
   color: #fff;
   font-size: 1.8rem;
-  cursor: url('@/assets/cursors/hover_32.png'), pointer;
+  cursor: pointer;
   line-height: 1;
   padding: 0;
   opacity: 0.7;
@@ -544,7 +544,7 @@ const containerStyle = computed(() => ({
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   color: #fff;
-  cursor: url('@/assets/cursors/hover_32.png'), pointer;
+  cursor: pointer;
   transition: background 0.3s;
 
   &:hover {
